@@ -1,6 +1,6 @@
-#Google copy page
+Google copy page
 
-##Pre-project expectations: 
+Pre-project expectations: 
 
 	The main idea is to be able to copy the basic skeleton of the 
 	Google homepage? I have no real clue as to the reality of the
@@ -13,6 +13,6 @@
 	
 	10-June-19, 5:01 PM
 
-##Post-project reflections / learning:
+Post-project reflections / learning:
 
 
