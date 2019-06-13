@@ -1,3 +1,165 @@
 /* Eric Meyer reset */
-@import(https://meyerweb.com/eric/tools/css/reset/reset.css)
+@import url("https://meyerweb.com/eric/tools/css/reset/reset.css");
 
+body {
+	display:flex;
+	flex-direction:column;
+	justify-content:space-betwen;
+	font-family: arial, sans-serif;
+	font-size: 13px;
+	background-color: rgb(255, 255, 255);
+	color: rgb(34, 34, 34);
+	min-width: 1139px;
+	min-height: 666px;
+}
+
+a {
+	text-decoration: none;
+	color:rgba(0,0,0,0.87);
+}
+
+a:hover{
+	text-decoration: underline;
+	opacity: .80;
+}
+
+.center-p {
+	min-width: 980px;
+	
+}
+
+#viewport{
+	height:100%;
+}
+
+#blue-button{
+	background:#4387fd;
+	height:20px;
+	padding-left: 9px;
+	padding-right: 9px;
+	border-radius: 2px;
+
+}
+#blue-button a{
+	color:#fff;
+	text-decoration: none;
+	font-weight:bold;
+}
+
+#apps-widget{
+	height:20px;
+	width: 30px;
+	opacity: .55;
+	background-image: url(https://ssl.gstatic.com/gb/images/i1_1967ca6a.png);
+	background-position: -132px -38px;
+}
+
+
+#searchform{
+	margin-top: 89px;
+	display:flex;
+  flex-direction: column;
+	align-items: center;
+	
+}
+
+#header {
+	position:fixed;
+	top: 16px;
+	display: inline;
+	font-size: 13px;
+  margin-right: 30px;
+	min-width:980px;
+	width: 100%;
+}
+
+#header-container{
+	position:absolute;
+	right:16px;
+}
+
+#header-container div {
+	float:left;
+	margin-right:15px;
+	padding-top: 9px;
+}
+
+#google {
+	padding-top:109px;
+}
+
+#searchbar-container {
+	padding-top:35px;
+	padding-bottom:20px;
+}
+
+#searchbar-container input{
+	padding: 10px 20px 10px 20px;
+	
+	border:1px solid #ddd;
+	background-color: #fff;
+	width: 550px;
+	border-radius: 50px;
+	margin:0;
+	display:flex;
+	flex:100%;
+}
+
+#searchbar-container input:hover, #searchbar-container input:focus {
+	border: 1px solid #fff;
+	box-shadow: 0px 2px 9px 0px #bbb;
+}
+
+#buttons-container button {
+	height: 36px;
+	padding: 0px 16px;
+	margin-right: 8px;
+	background-color: #f2f2f2;
+	border: 1px solid #f2f2f2;
+	border-radius: 4px;
+	color: #656565;
+}
+
+#buttons-container button:hover {
+	border: 1px solid #c1c1c1;
+	color: #222;
+}
+
+#footer{
+	display:block;
+	position:fixed;
+	bottom:0;
+	width: 100%;
+}
+
+#footer div{
+	padding-top:15px;
+	padding-bottom: 15px;
+	background: #f2f2f2;
+	border-top: 1px solid #ddd;
+}
+
+#footer-bar li{
+	display: inline;
+}
+
+#footer-bar .right{
+	position:fixed;
+	right:0;
+}
+
+#footer a {
+	color: #656565;
+}
+
+#region-box a{
+	padding-left:10px;
+}
+
+.left a{
+	padding-left:10px;
+}
+
+.right a{
+	padding-right:10px;
+}
